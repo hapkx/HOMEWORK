@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\framework1\framework1\obj\Debug\framework1.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\framework1\framework1\obj\Debug\framework1.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\framework1\framework1\bin\Debug\framework1.exe.config
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\framework1\framework1\bin\Debug\framework1.exe
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\framework1\framework1\bin\Debug\framework1.pdb
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\framework1\framework1\obj\Debug\framework1.exe
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\framework1\framework1\obj\Debug\framework1.pdb

@@ -1,0 +1,10 @@
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\WinForm1\WinForm1\bin\Debug\WinForm1.exe.config
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\WinForm1\WinForm1\bin\Debug\WinForm1.exe
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\WinForm1\WinForm1\bin\Debug\WinForm1.pdb
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\WinForm1\WinForm1\obj\Debug\WinForm1.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\WinForm1\WinForm1\obj\Debug\WinForm1.Form1.resources
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\WinForm1\WinForm1\obj\Debug\WinForm1.Properties.Resources.resources
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\WinForm1\WinForm1\obj\Debug\WinForm1.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\WinForm1\WinForm1\obj\Debug\WinForm1.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\WinForm1\WinForm1\obj\Debug\WinForm1.exe
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\1\WinForm1\WinForm1\obj\Debug\WinForm1.pdb
