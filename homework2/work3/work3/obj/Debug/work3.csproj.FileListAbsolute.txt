@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework2\work3\work3\bin\Debug\work3.exe.config
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework2\work3\work3\bin\Debug\work3.exe
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework2\work3\work3\bin\Debug\work3.pdb
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework2\work3\work3\obj\Debug\work3.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework2\work3\work3\obj\Debug\work3.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework2\work3\work3\obj\Debug\work3.exe
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework2\work3\work3\obj\Debug\work3.pdb
