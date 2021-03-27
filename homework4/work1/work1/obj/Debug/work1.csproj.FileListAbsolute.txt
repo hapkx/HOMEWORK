@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\HOMEWORK\homework4\work1\work1\obj\Debug\work1.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\HOMEWORK\homework4\work1\work1\obj\Debug\work1.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\HOMEWORK\homework4\work1\work1\bin\Debug\work1.exe.config
+C:\Users\lenovo\Desktop\HOMEWORK\homework4\work1\work1\bin\Debug\work1.exe
+C:\Users\lenovo\Desktop\HOMEWORK\homework4\work1\work1\bin\Debug\work1.pdb
+C:\Users\lenovo\Desktop\HOMEWORK\homework4\work1\work1\obj\Debug\work1.exe
+C:\Users\lenovo\Desktop\HOMEWORK\homework4\work1\work1\obj\Debug\work1.pdb
