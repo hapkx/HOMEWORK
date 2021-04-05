@@ -1,0 +1,13 @@
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\bin\Debug\netcoreapp3.1\work1.exe
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\bin\Debug\netcoreapp3.1\work1.deps.json
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\bin\Debug\netcoreapp3.1\work1.runtimeconfig.json
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\bin\Debug\netcoreapp3.1\work1.runtimeconfig.dev.json
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\bin\Debug\netcoreapp3.1\work1.dll
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\bin\Debug\netcoreapp3.1\work1.pdb
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\obj\Debug\netcoreapp3.1\work1.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\obj\Debug\netcoreapp3.1\work1.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\obj\Debug\netcoreapp3.1\work1.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\obj\Debug\netcoreapp3.1\work1.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\obj\Debug\netcoreapp3.1\work1.dll
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\obj\Debug\netcoreapp3.1\work1.pdb
+C:\Users\lenovo\Desktop\HOMEWORK\homework5\work1\work1\obj\Debug\netcoreapp3.1\work1.genruntimeconfig.cache
