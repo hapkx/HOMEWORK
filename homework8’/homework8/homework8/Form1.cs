@@ -60,7 +60,7 @@ namespace homework8
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.InitialDirectory = "c:\\";
             openFile.Filter = "xml文件|*.xml";
-            openFile.Title = "选择导入的xml文件";
+            openFile.Title = "选择要导入的xml文件";
             string filepath = "";
             try
             {
