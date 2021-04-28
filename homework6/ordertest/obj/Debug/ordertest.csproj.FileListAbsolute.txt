@@ -19,3 +19,10 @@ C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\Homework5\ordertest\
 C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\Homework5\ordertest\obj\Debug\ordertest.csproj.CoreCompileInputs.cache
 C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\Homework5\ordertest\obj\Debug\ordertest.exe
 C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\Homework5\ordertest\obj\Debug\ordertest.pdb
+C:\Users\lenovo\Desktop\HOMEWORK\homework6\ordertest\bin\Debug\ordertest.exe.config
+C:\Users\lenovo\Desktop\HOMEWORK\homework6\ordertest\bin\Debug\ordertest.exe
+C:\Users\lenovo\Desktop\HOMEWORK\homework6\ordertest\bin\Debug\ordertest.pdb
+C:\Users\lenovo\Desktop\HOMEWORK\homework6\ordertest\obj\Debug\ordertest.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\HOMEWORK\homework6\ordertest\obj\Debug\ordertest.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\HOMEWORK\homework6\ordertest\obj\Debug\ordertest.exe
+C:\Users\lenovo\Desktop\HOMEWORK\homework6\ordertest\obj\Debug\ordertest.pdb

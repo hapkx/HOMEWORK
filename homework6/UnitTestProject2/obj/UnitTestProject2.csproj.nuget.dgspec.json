@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Desktop\\大二下\\软件构造基础\\作业\\Homework5\\UnitTestProject2\\UnitTestProject2.csproj": {}
+    "C:\\Users\\lenovo\\Desktop\\HOMEWORK\\homework6\\UnitTestProject2\\UnitTestProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Desktop\\大二下\\软件构造基础\\作业\\Homework5\\ordertest\\ordertest.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\HOMEWORK\\homework6\\ordertest\\ordertest.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\大二下\\软件构造基础\\作业\\Homework5\\ordertest\\ordertest.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\HOMEWORK\\homework6\\ordertest\\ordertest.csproj",
         "projectName": "ordertest",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\大二下\\软件构造基础\\作业\\Homework5\\ordertest\\ordertest.csproj"
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\HOMEWORK\\homework6\\ordertest\\ordertest.csproj"
       },
       "frameworks": {
         "net452": {}
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\大二下\\软件构造基础\\作业\\Homework5\\UnitTestProject2\\UnitTestProject2.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\HOMEWORK\\homework6\\UnitTestProject2\\UnitTestProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\大二下\\软件构造基础\\作业\\Homework5\\UnitTestProject2\\UnitTestProject2.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\HOMEWORK\\homework6\\UnitTestProject2\\UnitTestProject2.csproj",
         "projectName": "UnitTestProject2",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\大二下\\软件构造基础\\作业\\Homework5\\UnitTestProject2\\UnitTestProject2.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\HOMEWORK\\homework6\\UnitTestProject2\\UnitTestProject2.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\大二下\\软件构造基础\\作业\\Homework5\\UnitTestProject2\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\HOMEWORK\\homework6\\UnitTestProject2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,8 +38,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\大二下\\软件构造基础\\作业\\Homework5\\ordertest\\ordertest.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\大二下\\软件构造基础\\作业\\Homework5\\ordertest\\ordertest.csproj"
+              "C:\\Users\\lenovo\\Desktop\\HOMEWORK\\homework6\\ordertest\\ordertest.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\HOMEWORK\\homework6\\ordertest\\ordertest.csproj"
               }
             }
           }

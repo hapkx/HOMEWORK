@@ -11,36 +11,55 @@ namespace UnitTestProject2
     {
         private List<OrderDetail> list;
         private List<Order> orderlist;
-        private OrderService order;
-        
+        OrderService order = new OrderService();
+
+        Goods apple = new Goods(1, "apple", 10.0f);
+        Goods egg = new Goods(2, "egg", 1.2f);
+        Goods milk = new Goods(3, "milk", 50f);
+        Customer customer1 = new Customer(1, "Customer1");
+        Customer customer2 = new Customer(2, "Customer2");
+
         [TestInitialize]
         public void TestInitialize()
         {
-            orderlist.Add(new Order(1, new Customer(1, "001")));
-            orderlist.Add(new Order(2, new Customer(2, "002")));
-            orderlist.Add(new Order(3, new Customer(3, "003")));
-            order = new OrderService(orderlist);
+            Order order1 = new Order(1, customer1);
+            order1.AddDetails(new OrderDetail(apple, 80));
+            order1.AddDetails(new OrderDetail(egg, 200));
+            order1.AddDetails(new OrderDetail(milk, 10));
+
+            Order order2 = new Order(2, customer2);
+            order2.AddDetails(new OrderDetail(egg, 200));
+            order2.AddDetails(new OrderDetail(milk, 10));
+
+            Order order3 = new Order(3, customer1);
+            order3.AddDetails(new OrderDetail(apple, 80));
+            order3.AddDetails(new OrderDetail(milk, 10));
+
+            OrderService order = new OrderService();
+            order.AddOrder(order1);
+            order.AddOrder(order2);
+            order.AddOrder(order3);
         }
 
         [TestMethod]
         public void TestAddOrder()
         {
-            OrderService test1 = new OrderService();
-            foreach(Order o in orderlist)
-            {
-                test1.AddOrder(o);
-            }
-            CollectionAssert.Equals(test1, order);
+            Order order4 = new Order(4, customer2);
+            order4.AddDetails(new OrderDetail(milk, 10));
+            order.AddOrder(order4);
+            List<Order> orders = order.QueryAll();
+            CollectionAssert.Contains(orders, order4);
         }
         [TestMethod]
         public void TestRemove()
         {
-            OrderService test = new OrderService();
-            foreach(Order o in orderlist)
-            {
-                order.RemoveOrder(o.Id);
-            }
-            CollectionAssert.Equals(test, order);
+            order.RemoveOrder(1);
+            Order order1 = new Order(1, customer1);
+            order1.AddDetails(new OrderDetail(apple, 80));
+            order1.AddDetails(new OrderDetail(egg, 200));
+            order1.AddDetails(new OrderDetail(milk, 10));
+            List<Order> ordertest = order.QueryAll();
+            CollectionAssert.DoesNotContain(ordertest, order1);
         }
         
         [TestMethod]
