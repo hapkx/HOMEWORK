@@ -1,0 +1,10 @@
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework7\Cayley\Cayley\bin\Debug\Cayley.exe.config
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework7\Cayley\Cayley\bin\Debug\Cayley.exe
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework7\Cayley\Cayley\bin\Debug\Cayley.pdb
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework7\Cayley\Cayley\obj\Debug\Cayley.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework7\Cayley\Cayley\obj\Debug\Cayley.Form1.resources
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework7\Cayley\Cayley\obj\Debug\Cayley.Properties.Resources.resources
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework7\Cayley\Cayley\obj\Debug\Cayley.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework7\Cayley\Cayley\obj\Debug\Cayley.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework7\Cayley\Cayley\obj\Debug\Cayley.exe
+C:\Users\lenovo\Desktop\大二下\软件构造基础\作业\homework7\Cayley\Cayley\obj\Debug\Cayley.pdb

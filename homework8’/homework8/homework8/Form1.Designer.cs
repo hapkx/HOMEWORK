@@ -32,8 +32,14 @@ namespace homework8
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.DetailBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ExportButton = new System.Windows.Forms.Button();
             this.orderGridView = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.customerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.createTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalAmountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orderBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ImportButton = new System.Windows.Forms.Button();
             this.Sort = new System.Windows.Forms.Label();
             this.DeleteButton = new System.Windows.Forms.Button();
@@ -45,16 +51,10 @@ namespace homework8
             this.goodsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.quantityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.amountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DetailBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.customerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.createTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalAmountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orderBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orderGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DetailBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orderGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.orderBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,6 +93,11 @@ namespace homework8
             this.dataGridView2.Size = new System.Drawing.Size(453, 300);
             this.dataGridView2.TabIndex = 5;
             // 
+            // DetailBindingSource
+            // 
+            this.DetailBindingSource.DataMember = "Details";
+            this.DetailBindingSource.DataSource = this.orderBindingSource;
+            // 
             // ExportButton
             // 
             this.ExportButton.Location = new System.Drawing.Point(487, 91);
@@ -119,6 +124,43 @@ namespace homework8
             this.orderGridView.RowTemplate.Height = 27;
             this.orderGridView.Size = new System.Drawing.Size(555, 300);
             this.orderGridView.TabIndex = 4;
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // customerDataGridViewTextBoxColumn
+            // 
+            this.customerDataGridViewTextBoxColumn.DataPropertyName = "Customer";
+            this.customerDataGridViewTextBoxColumn.HeaderText = "Customer";
+            this.customerDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.customerDataGridViewTextBoxColumn.Name = "customerDataGridViewTextBoxColumn";
+            this.customerDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // createTimeDataGridViewTextBoxColumn
+            // 
+            this.createTimeDataGridViewTextBoxColumn.DataPropertyName = "CreateTime";
+            this.createTimeDataGridViewTextBoxColumn.HeaderText = "CreateTime";
+            this.createTimeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.createTimeDataGridViewTextBoxColumn.Name = "createTimeDataGridViewTextBoxColumn";
+            this.createTimeDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // totalAmountDataGridViewTextBoxColumn
+            // 
+            this.totalAmountDataGridViewTextBoxColumn.DataPropertyName = "TotalAmount";
+            this.totalAmountDataGridViewTextBoxColumn.HeaderText = "TotalAmount";
+            this.totalAmountDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.totalAmountDataGridViewTextBoxColumn.Name = "totalAmountDataGridViewTextBoxColumn";
+            this.totalAmountDataGridViewTextBoxColumn.ReadOnly = true;
+            this.totalAmountDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // orderBindingSource
+            // 
+            this.orderBindingSource.DataSource = typeof(ordertest.Order);
             // 
             // ImportButton
             // 
@@ -221,47 +263,6 @@ namespace homework8
             this.amountDataGridViewTextBoxColumn.ReadOnly = true;
             this.amountDataGridViewTextBoxColumn.Width = 125;
             // 
-            // DetailBindingSource
-            // 
-            this.DetailBindingSource.DataSource = typeof(ordertest.OrderDetail);
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
-            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // customerDataGridViewTextBoxColumn
-            // 
-            this.customerDataGridViewTextBoxColumn.DataPropertyName = "Customer";
-            this.customerDataGridViewTextBoxColumn.HeaderText = "Customer";
-            this.customerDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.customerDataGridViewTextBoxColumn.Name = "customerDataGridViewTextBoxColumn";
-            this.customerDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // createTimeDataGridViewTextBoxColumn
-            // 
-            this.createTimeDataGridViewTextBoxColumn.DataPropertyName = "CreateTime";
-            this.createTimeDataGridViewTextBoxColumn.HeaderText = "CreateTime";
-            this.createTimeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.createTimeDataGridViewTextBoxColumn.Name = "createTimeDataGridViewTextBoxColumn";
-            this.createTimeDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // totalAmountDataGridViewTextBoxColumn
-            // 
-            this.totalAmountDataGridViewTextBoxColumn.DataPropertyName = "TotalAmount";
-            this.totalAmountDataGridViewTextBoxColumn.HeaderText = "TotalAmount";
-            this.totalAmountDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.totalAmountDataGridViewTextBoxColumn.Name = "totalAmountDataGridViewTextBoxColumn";
-            this.totalAmountDataGridViewTextBoxColumn.ReadOnly = true;
-            this.totalAmountDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // orderBindingSource
-            // 
-            this.orderBindingSource.DataSource = typeof(ordertest.Order);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -274,8 +275,8 @@ namespace homework8
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orderGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DetailBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orderGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.orderBindingSource)).EndInit();
             this.ResumeLayout(false);
 
@@ -297,13 +298,13 @@ namespace homework8
         private System.Windows.Forms.DataGridView orderGridView;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.BindingSource DetailBindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn goodsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn quantityDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn amountDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn customerDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn createTimeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn totalAmountDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn goodsDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn quantityDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn amountDataGridViewTextBoxColumn;
     }
 }
 
